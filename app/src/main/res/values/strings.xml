@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">DevLokosOnlineDocJetpackCompose</string>
+    <string name="app_name">Online Doc</string>
+    <string name="title_activity_online_doc">OnlineDocActivity</string>
 </resources>

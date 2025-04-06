@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name=".firebase.FirebaseAppInit"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -12,10 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DevLokosOnlineDocJetpackCompose"
         tools:targetApi="31">
+
         <activity
-            android:name=".MainActivity"
+            android:name=".onlinedoc.view.OnlineDocActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="@string/title_activity_online_doc"
             android:theme="@style/Theme.DevLokosOnlineDocJetpackCompose">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,5 +26,6 @@
             </intent-filter>
         </activity>
     </application>
+
 
 </manifest>

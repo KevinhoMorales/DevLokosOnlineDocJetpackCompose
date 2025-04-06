@@ -1,4 +1,4 @@
-package com.kevinhomorales.devlokosonlinedocjetpackcompose.ui.theme
+package com.kevinhomorales.devlokosonlinedocjetpackcompose.onlinedoc.ui.theme
 
 import android.app.Activity
 import android.os.Build
